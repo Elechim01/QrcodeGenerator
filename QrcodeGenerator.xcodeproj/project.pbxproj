@@ -11,6 +11,7 @@
 		D1BD00CC25BA2A280054C099 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD00CB25BA2A280054C099 /* ContentView.swift */; };
 		D1BD00CE25BA2A290054C099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD00CD25BA2A290054C099 /* Assets.xcassets */; };
 		D1BD00D125BA2A290054C099 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD00D025BA2A290054C099 /* Preview Assets.xcassets */; };
+		D1BD00DA25BA2A6C0054C099 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD00D925BA2A6C0054C099 /* QRView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D1BD00CD25BA2A290054C099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1BD00D025BA2A290054C099 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1BD00D225BA2A290054C099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD00D925BA2A6C0054C099 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D1BD00C925BA2A280054C099 /* QrcodeGeneratorApp.swift */,
 				D1BD00CB25BA2A280054C099 /* ContentView.swift */,
+				D1BD00D925BA2A6C0054C099 /* QRView.swift */,
 				D1BD00CD25BA2A290054C099 /* Assets.xcassets */,
 				D1BD00D225BA2A290054C099 /* Info.plist */,
 				D1BD00CF25BA2A290054C099 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BD00CC25BA2A280054C099 /* ContentView.swift in Sources */,
+				D1BD00DA25BA2A6C0054C099 /* QRView.swift in Sources */,
 				D1BD00CA25BA2A280054C099 /* QrcodeGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
